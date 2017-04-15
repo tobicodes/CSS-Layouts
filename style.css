@@ -1,0 +1,21 @@
+body{
+	background-color:#add8e6;
+}
+
+.top_text{
+	text-align: justify;
+}
+
+ul li {
+    text-transform: initial;
+    list-style-type: none;
+}
+
+li::first-letter { 
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.centered_text{
+	text-align: center;
+}
