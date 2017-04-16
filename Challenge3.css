@@ -1,0 +1,44 @@
+body{
+	background: #D3D3D3;
+	margin:0;
+}
+
+
+#wrap{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/*margin-top: 0%;
+	padding-top: 0%;
+	border-top: 0%;*/
+
+}
+
+#nav{
+	background: #778899;
+	margin-left: 5%;
+	width: 20%;
+	text-align: center;
+}
+
+#nav ul{
+	display: inline-block;
+}
+
+#content{
+	background: orange;
+	margin-right: 5%;
+}
+
+#content p {
+	text-align: center;
+}
+
+#content li {
+	list-style-type: none;
+	text-align: center;
+}
+
+#content h1{
+	text-align: center;
+}
