@@ -1,0 +1,59 @@
+body{
+  margin: 0 auto;
+  width: 100%;
+  
+}
+
+.top_container{
+  width: 95%;
+  margin: 2% 5%;
+  background: purple;
+  height: 80px;
+  
+}
+
+.bottom_container{
+  width: 95%;
+  margin: 2% 5% 5%;
+  background: lightgrey;
+  height: 400px;
+}
+
+/* .bottom_container > div{
+  margin-left: 2%;
+} */
+
+.top_container, .left_pane, .mid_pane, .right_pane{
+  border: 3px solid black
+}
+
+
+.left_pane{
+  display: inline-block;
+  background: brown;
+  width: 29%;
+  height:100%;
+  margin-left: 0
+}
+
+.mid_pane{
+  display: inline-block;
+  background: lightgreen;
+  width: 29%;
+  height:100%;
+  margin-left: 4.1%;
+
+
+
+}
+
+.right_pane{
+  display: inline-block;
+  background: orange;
+  width: 29%;
+  height:100%;
+  margin-left: 4.1%;
+  margin-right: 0%
+
+}
+
