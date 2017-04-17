@@ -1,0 +1,52 @@
+body{
+  width:100%;
+  margin: 0%;
+}
+
+.heading{
+  width: 90%;
+  height: 60px;
+  background: lightgreen;
+  margin: 5% 2% 2%;
+  border: 3px solid black;
+}
+
+.mid_level {
+  display: flex;
+  margin: 2% 2%;
+  height: 200px;
+  width: 90%;
+  justify-content:space-between;
+}
+
+.bottom_level {
+  display: flex;
+  margin: 2% 2%;
+  height: 200px;
+  width: 90%;
+  justify-content:space-between;
+}
+
+.bottom_level div{
+  display: inline-block;
+  height:100%;
+  width:29%;
+  border: 3px solid black;
+   
+}
+
+
+
+.left_column{
+  background: thistle;
+}
+
+.mid_column{ 
+   background: peachpuff;
+}
+
+.right_column{
+  background: lightcoral;
+  
+}
+
